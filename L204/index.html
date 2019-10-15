@@ -6,6 +6,24 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- page content -->
+   
+   <h2>password: secured</h2>
+    <script async>
+      
+        var myPass = 'secured';
+        var pass = prompt('Password:').toString();
+        
+        while (pass != myPass) {
+            
+            if (pass !== myPass) {
+                 pass = prompt('Wrong Passowrd, Try Again!');
+            }else {
+             alert('Its Ok');
+            }
+            
+        }
+        
+        
+      </script>
   </body>
 </html>
